@@ -9,8 +9,6 @@ downloadRouter.use((req, res, next) => {
     next();
 });
 
-
-
 // 方法一：使用 express自带的 res.download方法
 downloadRouter.route("/method1")
 
