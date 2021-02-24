@@ -13,19 +13,5 @@ uploadRouter.route("/")
         res.send("download Post");
     })
 
-    .put((req, res) => {
-        res.send("download Put");
-
-    })
-
-    .delete((req, res) => {
-        res.send("download Delete");
-    });
-
-uploadRouter.route("/:id")
-    .get((req, res) => {
-        res.send("download id Get");
-    })
-
 module.exports = uploadRouter;
 

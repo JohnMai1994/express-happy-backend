@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const downloadRouter = require("./components/download/index")
+const uploadRouter = require("./components/upload/index")
 
 const PORT = 8080;
 
@@ -27,6 +28,7 @@ app.get("/", (req,res) => {
 })
 
 app.use("/download", downloadRouter);
+app.use("/upload", uploadRouter);
 
 
 

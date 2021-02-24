@@ -14,3 +14,9 @@
     `localhost:8080/download/method2?name=下载文件名`
     
 ### 上传功能
+
+## 使用的库
+1. express: 搭建后端的框架
+2. path: Node自带的路径模块库
+3. fs: Node自带的文件传输模块库
+4. mime: 根据后缀获取Content-type的库, ".txt" => "text/plain"
