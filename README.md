@@ -20,3 +20,4 @@
 2. path: Node自带的路径模块库
 3. fs: Node自带的文件传输模块库
 4. mime: 根据后缀获取Content-type的库, ".txt" => "text/plain"
+5. multer: 是一个node.js中间件，用于处理 multipart/form-data类型的表单数据，主要用于上传文件。
